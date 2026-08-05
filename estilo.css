@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #DCE6ED;
+    box-shadow: 0px 2px 8px rgba(15, 44, 76, 0.08);
+    background-color: #FFFFFF;
+    padding: 1%;
+}
+header nav{
+    width: 50%;
+}
+header nav ul li a{
+    text-decoration: none;
+    
+}
+header a{
+    width: 20%;
+}
+header a img{
+    width: 22%;
+}
