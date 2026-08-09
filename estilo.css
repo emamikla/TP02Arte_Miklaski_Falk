@@ -11,13 +11,34 @@ header{
 header nav{
     width: 50%;
 }
-header nav ul li a{
+header button a{
     text-decoration: none;
-    
+    color: black;
 }
 header a{
     width: 20%;
 }
 header a img{
     width: 22%;
+}
+header nav{
+    width: 50%;
+    border: none;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+header nav ul li{
+    display: inline-block;
+    border: none;
+    border: 1px solid #0F2C4C;
+    padding: 1%;
+    border-radius: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    
 }
