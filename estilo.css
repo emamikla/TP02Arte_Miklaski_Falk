@@ -1,8 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    border: 1px solid black;
-}
 body{
     background-color: #000000;
     padding-top: 8%;
@@ -74,7 +69,11 @@ header button{
     border-color: white;
     border-radius: 10px;
 }
-
+main{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+}
 main section{
     clear: both;
     width: 99%;
