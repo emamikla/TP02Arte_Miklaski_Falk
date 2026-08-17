@@ -194,3 +194,15 @@ footer section ul li a{
 .hero div h2:last-child{
     color: #D69E30;
 }
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    width: 96%;
+}
+.gridContainer div{
+    width: 65%;
+    margin: 3%;
+    border: 2px solid #DCE6ED;
+    margin-left: 5%;
+}
