@@ -297,3 +297,33 @@ footer section div ul li a{
     color: #DCE6ED;
     text-decoration: none;
 }
+
+
+.parent2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-around;
+    gap: 8px;
+    border: none;
+}
+.parent2 div{
+    border: 1px solid #DCE6ED;
+    border-radius: 10px;
+}
+.parent2 div h3, .parent2 div li{
+    margin-left: 1%;
+}
+.parent2 div ul li{
+    color: #D69E30;
+    list-style-type: none;
+}
+
+.parent2 div p{
+    margin-left: 1.5%;
+}
+.parent2 div:last-of-type ul{
+    border-bottom: 1px solid #DCE6ED;
+}
+.parent2 div h3, .parent2 div h5{
+    margin-left: 5%;
+}
