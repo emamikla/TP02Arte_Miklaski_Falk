@@ -108,18 +108,8 @@ button a{
     color: #DCE6ED;
     text-decoration: none;
 }
-main section div{
-}
-main section div h3{
-}
-main section div h4{
-}
 main section div h2:first-child{
     margin-top: 3%;
-}
-main section div p{
-}
-main section div img{
 }
 
 
@@ -281,6 +271,9 @@ footer section div ul li a{
     border-radius: 10px;
     margin-bottom: 1%
 }
+.divEnDiv div p{
+    font-size: 110%;
+}
 .divEnDiv div button{
     margin-bottom: 5%;
 }
@@ -305,11 +298,13 @@ footer section div ul li a{
 }
 
 .div1 {
+    display: flex;
+    align-items: center;
     grid-area: 1 / 1 / 2 / 2;
     width: 90%;
 }
 .div1 img{
-    width:60%;
+    width:70%;
     margin-left: 20%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -382,6 +377,12 @@ footer section div ul li a{
 .div1b {
     grid-area: 1 / 1 / 2 / 2;
 }
+.div1b img{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+    border-bottom: 2%;
+}
 
 .div2b {
     grid-area: 1 / 2 / 2 / 4;
@@ -409,12 +410,12 @@ footer section div ul li a{
 .parent3 div:first-child p{
     font-size: 110%;
 }
-.parent3 div:first-child ul{
-    margin-top: 15%;
+.layout div:first-child ul{
+    margin-top: 10%;
 }
-.parent3 div:first-child ul li{
+.layout div:first-child ul li{
     margin-bottom: 2%;
-    list-style-type: '✔'
+    list-style-type: '✔ '
 }
 .parent3 div form input:last-of-type{
     background-color: #D69E30;
