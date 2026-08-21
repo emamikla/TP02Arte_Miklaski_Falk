@@ -131,7 +131,8 @@ footer section:first-child h2, footer section:first-child h3{
 footer section{
     clear: both;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
 }
 footer section div{
     width: 23%;
@@ -154,6 +155,7 @@ footer section div ul li{
 }
 footer section div h3{
     text-align: center;
+    text-decoration:underline;
 }
 
 footer section div ul li a{
